@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Snapshot" id="{eea3beab-3508-4ed4-87be-9ce092b3343f}">
+		<property name="name">
+			<value>OutsideForest</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{da6c1e87-0407-4953-a2fc-bf0a23391648}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{81defa0d-2231-4869-8435-1d16292d8b1f}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{42b2429d-fc70-437a-afda-33c7ee2a4d7d}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{d29c13be-87da-4847-b056-6d07fe26e465}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{2949ffaf-a9d0-4bb0-a944-abcf680fcbb6}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{1675a5ad-6ea4-4ede-b917-4b5874061b5c}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{79054b98-d67d-464c-9eba-e0b72b868ad4}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{81defa0d-2231-4869-8435-1d16292d8b1f}" />
+	<object class="MarkerTrack" id="{42b2429d-fc70-437a-afda-33c7ee2a4d7d}" />
+	<object class="Timeline" id="{d29c13be-87da-4847-b056-6d07fe26e465}" />
+	<object class="SnapshotMasterTrack" id="{2949ffaf-a9d0-4bb0-a944-abcf680fcbb6}" />
+	<object class="SnapshotProperty" id="{1675a5ad-6ea4-4ede-b917-4b5874061b5c}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-10</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{7c39bd51-5728-4037-979e-9931ad708926}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{79054b98-d67d-464c-9eba-e0b72b868ad4}">
+		<relationship name="mixerStrip">
+			<destination>{7c39bd51-5728-4037-979e-9931ad708926}</destination>
+		</relationship>
+	</object>
+</objects>
